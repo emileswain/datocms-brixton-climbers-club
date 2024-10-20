@@ -21,7 +21,7 @@ export async function generateRealtimeSubscription<Result, Variables>(
 ): Promise<QuerySubscriptionOptions<Result, Variables>> {
   const draftModeEnabled = isDraftModeEnabled(event);
 
-  console.log(`emile NEXT_DATOCMS_ENVIRONMENT: ${JSON.stringify(variables, null, 4)} `);
+  // console.log(`emile generateRealtimeSubscription() : ${JSON.stringify(variables, null, 4)} `);
   const data = await executeQuery(query, {
     variables,
     includeDrafts: draftModeEnabled,
