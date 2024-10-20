@@ -26,7 +26,8 @@
   -->
   <Head data={page._seoMetaTags} />
 
-  <h1>{page.title}</h1>
+<!--  <h1>{page.title}</h1>-->
+
 
   <!--
     Structured Text is a JSON format similar to HTML, but with the advantage
