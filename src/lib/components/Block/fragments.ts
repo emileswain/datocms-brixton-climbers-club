@@ -17,8 +17,9 @@ import { VideoBlockFragment } from './VideoBlock/fragments';
  */
 
 export const BlockFragment = graphql(
+  //  fragment BlockFragment on HomepageModelStructuredTextBlocksField {
   /* GraphQL */ `
-    fragment BlockFragment on PageModelStructuredTextBlocksField {
+    fragment BlockFragment on RecordInterface {
       ... on RecordInterface {
         id
         __typename

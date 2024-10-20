@@ -19,7 +19,7 @@
   you wish to customize its appearance:
 -->
 
-{#if unmaskedLink.__typename === 'PageRecord'}
+{#if unmaskedLink.__typename === 'HomepageRecord'}
   <a {...transformedMeta} href="/">
     <slot />
   </a>

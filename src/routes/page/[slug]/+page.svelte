@@ -16,7 +16,7 @@
 
   export let data: PageData;
   $: subscription = querySubscription(data.subscription);
-  $: page = $subscription.data?.homepage;
+  $: page = $subscription.data?.page;
 </script>
 
 {#if page}

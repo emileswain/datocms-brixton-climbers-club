@@ -21,6 +21,7 @@ export async function generateRealtimeSubscription<Result, Variables>(
 ): Promise<QuerySubscriptionOptions<Result, Variables>> {
   const draftModeEnabled = isDraftModeEnabled(event);
 
+  console.log(`emile NEXT_DATOCMS_ENVIRONMENT: ${JSON.stringify(variables, null, 4)} `);
   const data = await executeQuery(query, {
     variables,
     includeDrafts: draftModeEnabled,
@@ -28,6 +29,7 @@ export async function generateRealtimeSubscription<Result, Variables>(
     token: draftModeEnabled
       ? privateEnv.PRIVATE_DATOCMS_DRAFT_CONTENT_CDA_TOKEN
       : privateEnv.PRIVATE_DATOCMS_PUBLISHED_CONTENT_CDA_TOKEN,
+    environment: privateEnv.NEXT_DATOCMS_ENVIRONMENT,
   });
 
   // If Draft Mode is not active, there is no need to activate the
