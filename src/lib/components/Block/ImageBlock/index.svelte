@@ -12,5 +12,5 @@
   <!-- Display responsive image -->
   <ResponsiveImage data={unmaskedData.asset.responsiveImage} />
   <!-- Display image title -->
-  <figcaption>{unmaskedData.asset.title}</figcaption>
+<!--  <figcaption>{unmaskedData.asset.title}</figcaption>-->
 </figure>

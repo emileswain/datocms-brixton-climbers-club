@@ -3,6 +3,7 @@
   import ImageBlock from '$lib/components/Block/ImageBlock/index.svelte';
   import ImageGalleryBlock from '$lib/components/Block/ImageGalleryBlock/index.svelte';
   import { BlockFragment } from './fragments';
+  import ImageByTextBlock from "$lib/components/Block/ImageByTextBlock/index.svelte";
 
   export let block: FragmentOf<typeof BlockFragment>;
 
@@ -14,6 +15,8 @@
     <ImageBlock data={unmaskedBlock} />
   {:else if unmaskedBlock.__typename === 'ImageGalleryBlockRecord'}
     <ImageGalleryBlock data={unmaskedBlock} />
+  {:else if unmaskedBlock.__typename === 'ImageByTextBlockRecord'}
+    <ImageByTextBlock data={unmaskedBlock} />
   {:else if unmaskedBlock.__typename === 'VideoBlockRecord'}
     <!--
       By using an await block, the component will not be included in the page's

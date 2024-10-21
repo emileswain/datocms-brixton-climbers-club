@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a96e527d-4690-44ab-b622-6f62c797d6da" name="Changes" comment="">
+    <list default="true" id="c276a884-1a8e-4666-a107-6cda24dd7e64" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/lib/components/Block/ImageByTextBlock/fragments.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/components/Block/ImageByTextBlock/index.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/InlineItem/index.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/InlineItem/index.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/ItemLink/fragments.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/ItemLink/fragments.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/ItemLink/index.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/ItemLink/index.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schema.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/schema.graphql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/components/Block/ImageBlock/index.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/Block/ImageBlock/index.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/components/Block/fragments.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/Block/fragments.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/components/Block/index.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/Block/index.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/datocms/graphql-env.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/datocms/graphql-env.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/+layout.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+layout.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,17 +20,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="migration-homepage" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2nhshcHhwVyFuDZmEbcKLDAQE85" />
+  <component name="ProjectId" id="2nkMWUGmppKLFMwIx4iGKFuwjWd" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -36,89 +37,27 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="C:/NVPACK/android-sdk-windows" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/routes/content/[slug]" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/lib/components/Block/ImageByTextBlock" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
     <property name="show.migrate.to.gradle.popup" value="false" />
-    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="ts.external.directory.path" value="G:\workspace_websites\datocms-brixton-climbers-club\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\workspace_websites\datocms-brixton-climbers-club\src\routes\content\[slug]" />
-      <recent name="G:\workspace_websites\datocms-brixton-climbers-club" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="G:\workspace_websites\datocms-brixton-climbers-club\src\page" />
+      <recent name="G:\workspace_websites\datocms-brixton-climbers-club\src\lib\components\Block\ImageByTextBlock" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a96e527d-4690-44ab-b622-6f62c797d6da" name="Changes" comment="" />
-      <created>1729436770109</created>
+      <changelist id="c276a884-1a8e-4666-a107-6cda24dd7e64" name="Changes" comment="" />
+      <created>1729512652820</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1729436770109</updated>
-      <workItem from="1729436774947" duration="16445000" />
-      <workItem from="1729505688983" duration="4421000" />
+      <updated>1729512652820</updated>
+      <workItem from="1729512654167" duration="9592000" />
     </task>
-    <task id="LOCAL-00001" summary="Initial tweeks.">
-      <created>1729440353857</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1729440353857</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Multple pages added.">
-      <created>1729453732795</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1729453732795</updated>
-    </task>
-    <task id="LOCAL-00003" summary="slugs working">
-      <created>1729454198347</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1729454198347</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Added migrations">
-      <created>1729505328959</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1729505328959</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Added migrations">
-      <created>1729505500355</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1729505500355</updated>
-    </task>
-    <task id="LOCAL-00006" summary="added intelij">
-      <created>1729505548079</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1729505548079</updated>
-    </task>
-    <task id="LOCAL-00007" summary="intellij">
-      <created>1729505728745</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1729505728745</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Applied model changes to release-001">
-      <created>1729508599527</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1729508599527</updated>
-    </task>
-    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,34 +68,10 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="migration-homepage" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Initial tweeks." />
-    <MESSAGE value="Multple pages added." />
-    <MESSAGE value="slugs working" />
-    <MESSAGE value="added intelij" />
-    <MESSAGE value="Added migrations" />
-    <MESSAGE value="intellij" />
-    <MESSAGE value="Applied model changes to release-001" />
-    <option name="LAST_COMMIT_MESSAGE" value="Applied model changes to release-001" />
   </component>
 </project>

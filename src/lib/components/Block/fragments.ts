@@ -2,6 +2,7 @@ import { graphql } from '$lib/datocms/graphql';
 import { ImageBlockFragment } from './ImageBlock/fragments';
 import { ImageGalleryBlockFragment } from './ImageGalleryBlock/fragments';
 import { VideoBlockFragment } from './VideoBlock/fragments';
+import {ImageByTextBlockFragment} from "./ImageByTextBlock/fragments";
 
 /**
  * Let's define the GraphQL fragment needed for the component to function.
@@ -33,7 +34,10 @@ export const BlockFragment = graphql(
       ... on VideoBlockRecord {
         ...VideoBlockFragment
       }
+      ... on ImageByTextBlockRecord {
+        ...ImageByTextBlockFragment
+      }
     }
   `,
-  [ImageBlockFragment, ImageGalleryBlockFragment, VideoBlockFragment],
+  [ImageBlockFragment, ImageGalleryBlockFragment, VideoBlockFragment, ImageByTextBlockFragment],
 );
