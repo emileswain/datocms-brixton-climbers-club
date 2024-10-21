@@ -53,7 +53,9 @@ const query = graphql(
  */
 export const load: PageServerLoad = async (event) => {
   // console.log(`PageServerLoad (event ) ${JSON.stringify(event, null, 4)}`);
-  const subscription = await generateRealtimeSubscription(event, query, { slug: event.params.slug });
+  const subscription = await generateRealtimeSubscription(event, query, {
+    slug: event.params.slug,
+  });
   // console.log(`Load: ${subscription.initialData?.homepage?.title}}`)
   if (!subscription.initialData?.page) {
     error(404, 'Page not found');
