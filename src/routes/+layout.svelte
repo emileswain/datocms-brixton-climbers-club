@@ -23,7 +23,7 @@
 <header>
   <!--  <h1>DatoCMS + SvelteKit Starter Kit</h1>-->
   <nav>
-<!--    <DraftModeToggler />-->
+    <!--    <DraftModeToggler />-->
   </nav>
 </header>
 

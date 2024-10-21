@@ -3,7 +3,7 @@
   import ImageBlock from '$lib/components/Block/ImageBlock/index.svelte';
   import ImageGalleryBlock from '$lib/components/Block/ImageGalleryBlock/index.svelte';
   import { BlockFragment } from './fragments';
-  import ImageByTextBlock from "$lib/components/Block/ImageByTextBlock/index.svelte";
+  import ImageByTextBlock from '$lib/components/Block/ImageByTextBlock/index.svelte';
 
   export let block: FragmentOf<typeof BlockFragment>;
 
