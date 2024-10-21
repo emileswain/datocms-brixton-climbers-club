@@ -1,24 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a96e527d-4690-44ab-b622-6f62c797d6da" name="Changes" comment="intellij">
+    <list default="true" id="a96e527d-4690-44ab-b622-6f62c797d6da" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datocms.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/datocms.config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/1729443879_renamePageToHomepage.ts" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/1729443879_renamePageToHomepage.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/1729505140_addedPages.ts" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/1729505140_addedPages.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/Block/fragments.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/Block/fragments.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/InlineItem/fragments.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/InlineItem/fragments.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/components/InlineItem/index.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/InlineItem/index.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/components/ItemLink/fragments.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/ItemLink/fragments.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/components/ItemLink/index.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/ItemLink/index.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/datocms/queries.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/datocms/queries.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/+layout.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+layout.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/+page.server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.server.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/page/[slug]/+page.server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/page/[slug]/+page.server.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/page/[slug]/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/page/[slug]/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/datocms/graphql-env.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/datocms/graphql-env.d.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +60,7 @@
       <option name="presentableId" value="Default" />
       <updated>1729436770109</updated>
       <workItem from="1729436774947" duration="16445000" />
-      <workItem from="1729505688983" duration="2386000" />
+      <workItem from="1729505688983" duration="4421000" />
     </task>
     <task id="LOCAL-00001" summary="Initial tweeks.">
       <created>1729440353857</created>
@@ -123,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1729505728745</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Applied model changes to release-001">
+      <created>1729508599527</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1729508599527</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,6 +156,7 @@
     <MESSAGE value="added intelij" />
     <MESSAGE value="Added migrations" />
     <MESSAGE value="intellij" />
-    <option name="LAST_COMMIT_MESSAGE" value="intellij" />
+    <MESSAGE value="Applied model changes to release-001" />
+    <option name="LAST_COMMIT_MESSAGE" value="Applied model changes to release-001" />
   </component>
 </project>

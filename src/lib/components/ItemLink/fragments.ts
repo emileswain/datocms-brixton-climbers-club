@@ -14,13 +14,17 @@ import { graphql } from '$lib/datocms/graphql';
  */
 
 export const ItemLinkFragment = graphql(/* GraphQL */ `
-  fragment ItemLinkFragment on HomepageRecord {
+  fragment ItemLinkFragment on RecordInterface{
     ... on RecordInterface {
       id
       __typename
     }
     ... on HomepageRecord {
       title
+    }
+    ... on PageRecord {
+      title
+      slug
     }
   }
 `);

@@ -11,6 +11,8 @@
 
   $: ({ meta } = node);
   $: transformedMeta = meta ? defaultMetaTransformer({ node, meta }) : null;
+
+  $: sublink = unmaskedLink.slug ? '/page/' + unmaskedLink.slug : '/';
 </script>
 
 <!--
@@ -19,8 +21,8 @@
   you wish to customize its appearance:
 -->
 
-{#if unmaskedLink.__typename === 'HomepageRecord'}
-  <a {...transformedMeta} href="/">
+{#if unmaskedLink.__typename === 'HomepageRecord'|| unmaskedLink.__typename === 'PageRecord'}
+  <a {...transformedMeta} href="{sublink}"  >
     <slot />
   </a>
 {/if}
