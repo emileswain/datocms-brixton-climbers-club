@@ -21,8 +21,8 @@
   you wish to customize its appearance:
 -->
 
-{#if unmaskedLink.__typename === 'HomepageRecord'|| unmaskedLink.__typename === 'PageRecord'}
-  <a {...transformedMeta} href="{sublink}"  >
+{#if unmaskedLink.__typename === 'HomepageRecord' || unmaskedLink.__typename === 'PageRecord'}
+  <a {...transformedMeta} href={sublink}>
     <slot />
   </a>
 {/if}
