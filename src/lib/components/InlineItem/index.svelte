@@ -12,6 +12,6 @@
   record, it's up to you to decide how to render them:
 -->
 
-{#if unmaskedLink.__typename === 'PageRecord'}
+{#if unmaskedLink.__typename === 'HomepageRecord'}
   <a href="/" class="pill">{unmaskedLink.title}</a>
 {/if}
