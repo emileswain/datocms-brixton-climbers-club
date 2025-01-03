@@ -1,18 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c276a884-1a8e-4666-a107-6cda24dd7e64" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lib/components/Block/ImageByTextBlock/fragments.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/components/Block/ImageByTextBlock/index.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+    <list default="true" id="c276a884-1a8e-4666-a107-6cda24dd7e64" name="Changes" comment="tweeks">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/schema.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/schema.graphql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/components/Block/ImageBlock/index.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/Block/ImageBlock/index.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/Block/fragments.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/Block/fragments.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/components/Block/ImageByTextBlock/index.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/Block/ImageByTextBlock/index.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/components/Block/ImageGalleryBlock/index.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/Block/ImageGalleryBlock/index.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/components/Block/VideoBlock/index.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/Block/VideoBlock/index.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/components/Block/index.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/Block/index.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/datocms/graphql-env.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/datocms/graphql-env.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/components/Code/index.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/Code/index.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/components/DraftModeToggler/index.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/DraftModeToggler/index.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/components/HeadingWithAnchorLink/index.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/HeadingWithAnchorLink/index.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/components/InlineItem/index.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/InlineItem/index.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/components/ItemLink/index.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/ItemLink/index.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/components/ResponsiveImage/index.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/ResponsiveImage/index.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/components/VideoPlayer/index.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/VideoPlayer/index.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/+layout.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+layout.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/page/[slug]/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/page/[slug]/+page.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,11 +29,15 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2nkMWUGmppKLFMwIx4iGKFuwjWd" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -39,6 +51,7 @@
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/lib/components/Block/ImageByTextBlock" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="G:\workspace_websites\datocms-brixton-climbers-club\node_modules\prettier" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
     <property name="show.migrate.to.gradle.popup" value="false" />
     <property name="ts.external.directory.path" value="G:\workspace_websites\datocms-brixton-climbers-club\node_modules\typescript\lib" />

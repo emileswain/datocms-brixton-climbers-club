@@ -3,7 +3,12 @@
   import type { Heading } from 'datocms-structured-text-utils';
 
   // https://www.datocms.com/docs/structured-text/dast#heading
-  export let node: Heading;
+  interface Props {
+    node: Heading;
+    children?: import('svelte').Snippet;
+  }
+
+  let { node, children }: Props = $props();
 
   /**
    * Returns a slugified version of the string by converting the input to
@@ -18,10 +23,10 @@
           .replace(/(^-|-$)+/g, '')
       : undefined;
 
-  $: as = `h${node.level}` as const;
+  let as = $derived(`h${node.level}` as const);
 
   // Convert the node to plain text, and then slugify
-  $: slug = slugify(structuredTextToPlainText(node));
+  let slug = $derived(slugify(structuredTextToPlainText(node)));
 </script>
 
 <!--
@@ -31,11 +36,11 @@
 {#if slug}
   <svelte:element this={as} id={slug} tabindex="-1">
     <a href={`#${slug}`}>
-      <slot />
+      {@render children?.()}
     </a>
   </svelte:element>
 {:else}
   <svelte:element this={as}>
-    <slot />
+    {@render children?.()}
   </svelte:element>
 {/if}

@@ -3,8 +3,13 @@
   import type { LayoutData } from './$types';
   import DraftModeToggler from '$lib/components/DraftModeToggler/index.svelte';
 
-  export let data: LayoutData;
-  $: subscription = querySubscription(data.subscription);
+  interface Props {
+    data: LayoutData;
+    children?: import('svelte').Snippet;
+  }
+
+  let { data, children }: Props = $props();
+  let subscription = $derived(querySubscription(data.subscription));
 </script>
 
 <svelte:head>
@@ -28,7 +33,7 @@
 </header>
 
 <div class="container">
-  <slot />
+  {@render children?.()}
 </div>
 
 <style>
