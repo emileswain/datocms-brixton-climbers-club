@@ -1,4 +1,5 @@
 import { graphql } from '$lib/datocms/graphql';
+import { ContentBlocFragment } from '../ContentBloc/fragments';
 
 /**
  * Let's define the GraphQL fragment needed for the component to function.
@@ -13,20 +14,25 @@ import { graphql } from '$lib/datocms/graphql';
  * Learn more: https://gql-tada.0no.co/guides/fragment-colocation
  */
 
-export const InlineItemFragment = graphql(/* GraphQL */ `
-  fragment InlineItemFragment on RecordInterface {
-    ... on RecordInterface {
-      id
-      __typename
+export const SectionBlocFragment = graphql(
+  /* GraphQL */ `
+    fragment SectionBlocFragment on SectionBlockRecord {
+      ... on RecordInterface {
+        id
+        __typename
+      }
+
+      header
+      blocs {
+        ... on RecordInterface {
+          id
+          __typename
+        }
+        ... on ContentBlocRecord {
+          ...ContentBlocFragment
+        }
+      }
     }
-#    ... on HomepageRecord {
-#      title
-#    }
-#    ... on ProjectRecord {
-#      title
-#    }
-    ... on PageRecord {
-      title
-    }
-  }
-`);
+  `,
+  [ContentBlocFragment],
+);
