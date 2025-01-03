@@ -12,9 +12,9 @@ import type { SchemaTypes } from '@datocms/cma-client';
  */
 
 export async function recordToWebsiteRoute(
-    item: SchemaTypes.Item,
-    itemTypeApiKey: string,
-    locale: string,
+  item: SchemaTypes.Item,
+  itemTypeApiKey: string,
+  locale: string,
 ): Promise<string | null> {
   switch (itemTypeApiKey) {
     case 'homepage': {
@@ -35,9 +35,9 @@ export async function recordToWebsiteRoute(
 }
 
 export async function recordToSlug(
-    item: SchemaTypes.Item,
-    itemTypeApiKey: string,
-    locale: string,
+  item: SchemaTypes.Item,
+  itemTypeApiKey: string,
+  locale: string,
 ): Promise<string | null> {
   switch (itemTypeApiKey) {
     case 'article': {

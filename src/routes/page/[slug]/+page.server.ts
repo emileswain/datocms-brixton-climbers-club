@@ -77,7 +77,7 @@ import { BlockLayoutFragment } from '$lib/components/BlockLayout/fragments';
  * Thanks to gql.tada, the result will be fully typed!
  */
 const query = graphql(
-    /* GraphQL */ `
+  /* GraphQL */ `
     query PageQuery($slug: String!) {
       page(filter: { slug: { eq: $slug } }) {
         _seoMetaTags {
@@ -92,7 +92,7 @@ const query = graphql(
       }
     }
   `,
-    [TagFragment, BlockLayoutFragment],
+  [TagFragment, BlockLayoutFragment],
 );
 
 /**

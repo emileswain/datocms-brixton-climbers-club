@@ -16,12 +16,12 @@
    * at the beginning or end of the string.
    */
   const slugify = (str: string | null) =>
-          str
-                  ? str
-                          .toLowerCase()
-                          .replace(/[^a-z0-9]+/g, '-')
-                          .replace(/(^-|-$)+/g, '')
-                  : undefined;
+    str
+      ? str
+          .toLowerCase()
+          .replace(/[^a-z0-9]+/g, '-')
+          .replace(/(^-|-$)+/g, '')
+      : undefined;
 
   let as = $derived(`h${node.level}` as const);
 
