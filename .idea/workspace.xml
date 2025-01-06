@@ -1,39 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c276a884-1a8e-4666-a107-6cda24dd7e64" name="Changes" comment="Upgraded to svelte 5">
-      <change afterPath="$PROJECT_DIR$/.graphqlconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schema_inteli_plugin.graphql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/colorUtils.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/components/BlockLayout/ContentBloc/fragments.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/components/BlockLayout/ContentBloc/index.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/components/BlockLayout/SectionBlock/fragments.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/components/BlockLayout/SectionBlock/index.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/components/BlockLayout/fragments.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/components/BlockLayout/index.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/components/Button/index.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/components/Icon/index.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/components/Inview/index.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/components/LayoutBloc/index.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/components/Link/index.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/components/MyImage/index.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/components/PageBloc/index.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/components/Pill/index.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/components/TopNav/index.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/images/icons/back.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/images/icons/home.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/images/icons/next.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/stores/projectstore.ts" afterDir="false" />
+    <list default="true" id="c276a884-1a8e-4666-a107-6cda24dd7e64" name="Changes" comment="git hook amendments">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schema.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/schema.graphql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/HeadingWithAnchorLink/index.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/HeadingWithAnchorLink/index.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/InlineItem/fragments.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/InlineItem/fragments.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/ItemLink/fragments.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/ItemLink/fragments.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/ResponsiveImage/index.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/ResponsiveImage/index.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/datocms/graphql-env.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/datocms/graphql-env.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/datocms/recordInfo.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/datocms/recordInfo.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/page/[slug]/+page.server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/page/[slug]/+page.server.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/page/[slug]/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/page/[slug]/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/components/Block/ImageByTextBlock/index.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/Block/ImageByTextBlock/index.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/+layout.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+layout.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/+page.server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.server.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +59,7 @@
       <option name="presentableId" value="Default" />
       <updated>1729512652820</updated>
       <workItem from="1729512654167" duration="9592000" />
+      <workItem from="1736175903343" duration="1572000" />
     </task>
     <task id="LOCAL-00001" summary="Upgraded to svelte 5">
       <created>1735917845823</created>
@@ -101,7 +75,21 @@
       <option name="project" value="LOCAL" />
       <updated>1735920344907</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added &amp; updated components in line with datocms">
+      <created>1735932615442</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1735932615442</updated>
+    </task>
+    <task id="LOCAL-00004" summary="git hook amendments">
+      <created>1735932655145</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1735932655145</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,6 +108,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Upgraded to svelte 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Upgraded to svelte 5" />
+    <MESSAGE value="Added &amp; updated components in line with datocms" />
+    <MESSAGE value="git hook amendments" />
+    <option name="LAST_COMMIT_MESSAGE" value="git hook amendments" />
   </component>
 </project>
