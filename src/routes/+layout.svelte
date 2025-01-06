@@ -1,7 +1,7 @@
 <script lang="ts">
   import 'sanitize.css';
-  import {Head, querySubscription} from '@datocms/svelte';
-  import type {LayoutData} from './$types';
+  import { Head, querySubscription } from '@datocms/svelte';
+  import type { LayoutData } from './$types';
 
   // import DraftModeToggler from '$lib/components/DraftModeToggler/index.svelte';
 
@@ -10,21 +10,21 @@
     children?: import('svelte').Snippet;
   }
 
-  let {data, children}: Props = $props();
+  let { data, children }: Props = $props();
   let subscription = $derived(querySubscription(data.subscription));
 </script>
 
 <svelte:head>
-  <link rel="preconnect" href="https://fonts.googleapis.com"/>
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
-          href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..400&display=swap"
-          rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..400&display=swap"
+    rel="stylesheet"
   />
 
   <link
-          rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/default.min.css"
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/default.min.css"
   />
 </svelte:head>
 
@@ -32,7 +32,7 @@
   The <Head> component provided by @datocms/svelte automates the creation of
   meta tags based on the `_seoMetaTags` present in a DatoCMS GraphQL query.
 -->
-<Head data={$subscription.data?._site.faviconMetaTags}/>
+<Head data={$subscription.data?._site.faviconMetaTags} />
 
 <!--<header>-->
 <!--    &lt;!&ndash;  <h1>DatoCMS + SvelteKit Starter Kit</h1>&ndash;&gt;-->
@@ -225,7 +225,6 @@
   /*    content: "🔗";*/
   /*}*/
 
-
   :global(p) {
     color: var(--text-color);
     /*margin-bottom: 16px;*/
@@ -248,5 +247,4 @@
   :global(nav a:hover) {
     background-color: #575757;
   }
-
 </style>
