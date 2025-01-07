@@ -131,7 +131,7 @@
     --icon-fill: #000000;
 
     /* Layout parameters */
-    --page-max-content-width: 300px;
+    --page-max-content-width: 100%;
     --page-margin: 18px;
     --bloc-margin-bottom: 18px;
     --page-border-thickness: 15px; /* used on project page.*/
@@ -152,18 +152,18 @@
     --txt-btn-color-stroke--hover: #493b3b;
   }
 
-  /* applied when over 500 */
-  @media (min-width: 500px) {
+  /* applied when over 768 for Tablet */
+  @media (min-width: 768px) {
     :global(body) {
-      --page-max-content-width: 460px;
+      --page-max-content-width: 100%;
       --page-margin: 32px;
       --bloc-margin-bottom: 32px;
       --page-border-thickness: 20px; /* used on project page.*/
     }
   }
 
-  /* applied when over 700 */
-  @media (min-width: 700px) {
+  /* applied when over 1024 for desktop */
+  @media (min-width: 1024px) {
     :global(body) {
       --page-margin: 32px;
       --bloc-margin-bottom: 32px;

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c276a884-1a8e-4666-a107-6cda24dd7e64" name="Changes" comment="git hook amendments">
+    <list default="true" id="c276a884-1a8e-4666-a107-6cda24dd7e64" name="Changes" comment="githook changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/components/Block/ImageByTextBlock/index.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/Block/ImageByTextBlock/index.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/components/BlockLayout/ContentBloc/index.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/BlockLayout/ContentBloc/index.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/components/PageBloc/index.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/PageBloc/index.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/+layout.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+layout.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/+page.server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.server.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +59,7 @@
       <option name="presentableId" value="Default" />
       <updated>1729512652820</updated>
       <workItem from="1729512654167" duration="9592000" />
-      <workItem from="1736175903343" duration="1572000" />
+      <workItem from="1736175903343" duration="6829000" />
     </task>
     <task id="LOCAL-00001" summary="Upgraded to svelte 5">
       <created>1735917845823</created>
@@ -89,7 +89,21 @@
       <option name="project" value="LOCAL" />
       <updated>1735932655145</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="updated content structure">
+      <created>1736177697962</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1736177697962</updated>
+    </task>
+    <task id="LOCAL-00006" summary="githook changes">
+      <created>1736177717134</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1736177717134</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,6 +124,8 @@
     <MESSAGE value="Upgraded to svelte 5" />
     <MESSAGE value="Added &amp; updated components in line with datocms" />
     <MESSAGE value="git hook amendments" />
-    <option name="LAST_COMMIT_MESSAGE" value="git hook amendments" />
+    <MESSAGE value="updated content structure" />
+    <MESSAGE value="githook changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="githook changes" />
   </component>
 </project>

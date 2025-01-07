@@ -76,26 +76,21 @@
     margin-right: 0;
   }
 
-  @media (min-width: 500px) {
-    .content-maxWidth {
-    }
-  }
+  /*@media (min-width: 500px) {*/
+  /*  .content-maxWidth {*/
+  /*  }*/
+  /*}*/
 
-  @media (min-width: 768px) {
+  @media (min-width: var(--breakpoint-tablet))  {
     .content-maxWidth {
       max-width: var(--page-max-content-width);
     }
   }
 
-  @media (min-width: 992px) {
+  @media (min-width: var(--breakpoint-desktop))  {
     .content-maxWidth {
       max-width: var(--page-max-content-width);
     }
   }
 
-  @media (min-width: 1200px) {
-    .content-maxWidth {
-      max-width: var(--page-max-content-width);
-    }
-  }
 </style>
