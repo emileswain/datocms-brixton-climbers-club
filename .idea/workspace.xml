@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c276a884-1a8e-4666-a107-6cda24dd7e64" name="Changes" comment="mobile first changes.">
+    <list default="true" id="c276a884-1a8e-4666-a107-6cda24dd7e64" name="Changes" comment="githook formatting and invalid css fix.">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/components/Block/ImageByTextBlock/index.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/Block/ImageByTextBlock/index.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/BlockLayout/ContentBloc/index.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/BlockLayout/ContentBloc/index.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/components/BlockLayout/SectionBlock/index.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/BlockLayout/SectionBlock/index.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,13 +33,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="C:/NVPACK/android-sdk-windows" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="G:\workspace_websites\datocms-brixton-climbers-club\node_modules\prettier" />
-    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.TypeScript" />
     <property name="show.migrate.to.gradle.popup" value="false" />
     <property name="ts.external.directory.path" value="G:\workspace_websites\datocms-brixton-climbers-club\node_modules\typescript\lib" />
   </component>
@@ -48,6 +52,23 @@
       <recent name="G:\workspace_websites\datocms-brixton-climbers-club\src\lib\components\Block\ImageByTextBlock" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="format" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="format" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.format" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -57,7 +78,7 @@
       <option name="presentableId" value="Default" />
       <updated>1729512652820</updated>
       <workItem from="1729512654167" duration="9592000" />
-      <workItem from="1736175903343" duration="7070000" />
+      <workItem from="1736175903343" duration="8761000" />
     </task>
     <task id="LOCAL-00001" summary="Upgraded to svelte 5">
       <created>1735917845823</created>
@@ -108,7 +129,21 @@
       <option name="project" value="LOCAL" />
       <updated>1736272661536</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="githook formatting and invalid css fix.">
+      <created>1736272862461</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1736272862461</updated>
+    </task>
+    <task id="LOCAL-00009" summary="githook formatting and invalid css fix.">
+      <created>1736272869650</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1736272869650</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,6 +167,11 @@
     <MESSAGE value="updated content structure" />
     <MESSAGE value="githook changes" />
     <MESSAGE value="mobile first changes." />
-    <option name="LAST_COMMIT_MESSAGE" value="mobile first changes." />
+    <MESSAGE value="githook formatting and invalid css fix." />
+    <option name="LAST_COMMIT_MESSAGE" value="githook formatting and invalid css fix." />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

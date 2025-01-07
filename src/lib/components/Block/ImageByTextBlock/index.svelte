@@ -32,6 +32,7 @@
     margin: 0 0 64px 0;
     align-items: center;
   }
+
   .image-by-text.reverse {
     flex-direction: column;
   }
@@ -42,6 +43,10 @@
     margin-right: 1rem;
     margin-left: 1rem;
     padding: 0;
+  }
+
+  .image-by-text > figure {
+    margin-bottom: 18px;
   }
 
   :global(.image-by-text.reverse .text) {
@@ -68,12 +73,18 @@
       padding-left: 20px;
       padding-right: 20px;
     }
+
     .text p {
       max-width: 600px;
     }
 
     .image-by-text {
       flex-direction: row;
+    }
+
+    .image-by-text > figure {
+      margin: 0;
+      padding: 0;
     }
 
     .image-by-text.reverse {
@@ -84,15 +95,7 @@
       text-align: left !important;
     }
 
-    :global(.image-by-text > figure) {
-      margin: 0;
-      padding: 0;
-    }
-
     :global(.image-by-text > figure > picture > img) {
-      /*width: 100% !important;*/
-      /*height: auto !important;*/
-      /*max-height: none;*/
       max-height: 300px;
     }
   }

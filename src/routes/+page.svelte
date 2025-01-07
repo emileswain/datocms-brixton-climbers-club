@@ -57,7 +57,7 @@
     max-height: 400px;
   }
   /* applied when over 500 */
-  @media (min-width: 500px) {
+  @media (min-width: 768px) {
     :global(figure > picture > img) {
       width: auto !important;
     }
