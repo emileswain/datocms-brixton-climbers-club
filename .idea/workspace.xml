@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c276a884-1a8e-4666-a107-6cda24dd7e64" name="Changes" comment="githook changes">
+    <list default="true" id="c276a884-1a8e-4666-a107-6cda24dd7e64" name="Changes" comment="mobile first changes.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/components/Block/ImageByTextBlock/index.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/Block/ImageByTextBlock/index.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/components/BlockLayout/ContentBloc/index.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/BlockLayout/ContentBloc/index.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/PageBloc/index.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/PageBloc/index.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/+layout.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+layout.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +57,7 @@
       <option name="presentableId" value="Default" />
       <updated>1729512652820</updated>
       <workItem from="1729512654167" duration="9592000" />
-      <workItem from="1736175903343" duration="6829000" />
+      <workItem from="1736175903343" duration="7070000" />
     </task>
     <task id="LOCAL-00001" summary="Upgraded to svelte 5">
       <created>1735917845823</created>
@@ -103,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1736177717134</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="mobile first changes.">
+      <created>1736272661536</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1736272661536</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +131,7 @@
     <MESSAGE value="git hook amendments" />
     <MESSAGE value="updated content structure" />
     <MESSAGE value="githook changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="githook changes" />
+    <MESSAGE value="mobile first changes." />
+    <option name="LAST_COMMIT_MESSAGE" value="mobile first changes." />
   </component>
 </project>

@@ -76,21 +76,17 @@
     margin-right: 0;
   }
 
-  /*@media (min-width: 500px) {*/
-  /*  .content-maxWidth {*/
-  /*  }*/
-  /*}*/
 
-  @media (min-width: var(--breakpoint-tablet))  {
+  @media (min-width: 768px) {
     .content-maxWidth {
       max-width: var(--page-max-content-width);
     }
   }
 
-  @media (min-width: var(--breakpoint-desktop))  {
+
+  @media (min-width: 1024px) {
     .content-maxWidth {
       max-width: var(--page-max-content-width);
     }
   }
-
 </style>
