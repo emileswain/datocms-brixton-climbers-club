@@ -76,13 +76,11 @@
     margin-right: 0;
   }
 
-
   @media (min-width: 768px) {
     .content-maxWidth {
       max-width: var(--page-max-content-width);
     }
   }
-
 
   @media (min-width: 1024px) {
     .content-maxWidth {
