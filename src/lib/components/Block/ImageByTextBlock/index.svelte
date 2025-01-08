@@ -10,12 +10,19 @@
   let { data }: Props = $props();
 
   let unmaskedData = $derived(readFragment(ImageByTextBlockFragment, data));
+
+  let isLandscapeImage = $derived(
+    unmaskedData.asset.responsiveImage.width > unmaskedData.asset.responsiveImage.height,
+  );
 </script>
 
 <div class="image-by-text {unmaskedData.isAlignedRight ? 'reverse' : ''}">
   <figure>
     <!-- Display responsive image -->
-    <ResponsiveImage data={unmaskedData.asset.responsiveImage} />
+    <ResponsiveImage
+      data={unmaskedData.asset.responsiveImage}
+      imgClass={isLandscapeImage ? 'landscape' : ''}
+    />
     <!-- Display image title -->
     <!--  <figcaption>{unmaskedData.asset.title}</figcaption>-->
   </figure>
@@ -47,6 +54,7 @@
 
   .image-by-text > figure {
     margin-bottom: 18px;
+    width: 100%;
   }
 
   :global(.image-by-text.reverse .text) {
@@ -85,6 +93,7 @@
     .image-by-text > figure {
       margin: 0;
       padding: 0;
+      width: 50%;
     }
 
     .image-by-text.reverse {
@@ -93,10 +102,11 @@
 
     :global(.image-by-text.reverse .text) {
       text-align: left !important;
+      width: 50%;
     }
 
-    :global(.image-by-text > figure > picture > img) {
-      max-height: 300px;
-    }
+    /*:global(.image-by-text > figure > picture > img) {*/
+    /*  max-height: 300px;*/
+    /*}*/
   }
 </style>

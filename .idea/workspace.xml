@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c276a884-1a8e-4666-a107-6cda24dd7e64" name="Changes" comment="githook formatting and invalid css fix.">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+    <list default="true" id="c276a884-1a8e-4666-a107-6cda24dd7e64" name="Changes" comment="Fixed formmating issue with intelij.">
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/components/Block/ImageByTextBlock/index.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/Block/ImageByTextBlock/index.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/BlockLayout/SectionBlock/index.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/BlockLayout/SectionBlock/index.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/components/ResponsiveImage/index.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/ResponsiveImage/index.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/page/[slug]/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/page/[slug]/+page.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +40,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="G:\workspace_websites\datocms-brixton-climbers-club\node_modules\prettier" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.TypeScript" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
     <property name="show.migrate.to.gradle.popup" value="false" />
     <property name="ts.external.directory.path" value="G:\workspace_websites\datocms-brixton-climbers-club\node_modules\typescript\lib" />
   </component>
@@ -78,7 +78,7 @@
       <option name="presentableId" value="Default" />
       <updated>1729512652820</updated>
       <workItem from="1729512654167" duration="9592000" />
-      <workItem from="1736175903343" duration="8761000" />
+      <workItem from="1736175903343" duration="13864000" />
     </task>
     <task id="LOCAL-00001" summary="Upgraded to svelte 5">
       <created>1735917845823</created>
@@ -143,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1736272869650</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Fixed formmating issue with intelij.">
+      <created>1736274668820</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1736274668820</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,7 +175,8 @@
     <MESSAGE value="githook changes" />
     <MESSAGE value="mobile first changes." />
     <MESSAGE value="githook formatting and invalid css fix." />
-    <option name="LAST_COMMIT_MESSAGE" value="githook formatting and invalid css fix." />
+    <MESSAGE value="Fixed formmating issue with intelij." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed formmating issue with intelij." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

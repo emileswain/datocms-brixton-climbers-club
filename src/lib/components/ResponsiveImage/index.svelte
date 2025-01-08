@@ -1,8 +1,8 @@
 <script lang="ts">
-  import type { ComponentProps } from 'svelte';
-  import { type FragmentOf, readFragment } from '$lib/datocms/graphql';
-  import { NakedImage } from '@datocms/svelte';
-  import { ResponsiveImageFragment } from './fragments';
+  import type {ComponentProps} from 'svelte';
+  import {type FragmentOf, readFragment} from '$lib/datocms/graphql';
+  import {NakedImage} from '@datocms/svelte';
+  import {ResponsiveImageFragment} from './fragments';
 
   type $$Props = Omit<ComponentProps<NakedImage>, 'data'> & {
     data: FragmentOf<typeof ResponsiveImageFragment>;
@@ -10,12 +10,14 @@
 
   interface Props {
     data: $$Props['data'];
+
     [key: string]: any;
   }
 
-  let { data, ...rest }: Props = $props();
+  let {data, ...rest}: Props = $props();
 
   let unmaskedData = $derived(readFragment(ResponsiveImageFragment, data));
+
 </script>
 
 <!--
@@ -25,4 +27,10 @@
   wherever needed.
 -->
 
-<NakedImage {...rest} data={unmaskedData} />
+<NakedImage {...rest} data={unmaskedData}/>
+
+<style >
+    :global(img.landscape) {
+        width: 100% !important;
+    }
+</style>
