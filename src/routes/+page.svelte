@@ -42,32 +42,4 @@
     background: linear-gradient(#f8f6f6, rgba(0, 2, 26, 0.41));
     /*background: radial-gradient(circle at top left, white, rgb(176, 196, 185));*/
   }
-
-  :global(.homepage figure) {
-    margin: 0;
-    padding: 0;
-    margin-bottom: 1rem;
-  }
-
-  /*:global(.homepage figure > picture > img) {*/
-  /*  margin: 0;*/
-  /*  margin-left: auto;*/
-  /*  margin-right: auto;*/
-  /*  padding: 0;*/
-  /*  max-height: 400px;*/
-  /*}*/
-  /* applied when over 500 */
-  /*@media (min-width: 768px) {*/
-  /*  :global(figure > picture > img) {*/
-  /*    width: auto !important;*/
-  /*  }*/
-  /*}*/
-
-  /*:global(.homepage figure) {*/
-  /*  text-align: start;*/
-  /*}*/
-
-  /*:global(.homepage .container div:last-of-type > figure) {*/
-  /*  text-align: center;*/
-  /*}*/
 </style>
