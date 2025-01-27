@@ -73,13 +73,14 @@
   }
 
   /*
-  Header styling
-  */
+    Header styling
+    */
   :global(h1, h2, h3, h4, h5, h6, h7) {
     margin-bottom: 12px;
     font-family: 'Roboto Flex', Helvetica, Arial, serif;
     font-weight: 250;
   }
+
   :global(h1) {
     font-size: 1.5rem; /* Previously h2 size */
   }
@@ -167,14 +168,14 @@
     --page-gap: 8px;
 
     /* Flat Button styling parameters
-                     */
+                         */
     --btn-color-fill: rgba(108, 138, 121, 0.82);
     --btn-color-fill--hover: #cfe5d9;
     --btn-color-stroke: #fff;
     --btn-color-stroke--hover: #fff;
 
     /* Button styling parameters
-                 */
+                     */
     --txt-btn-color-fill: rgba(38, 49, 43, 0.82);
     --txt-btn-color-fill--hover: #444d49;
     --txt-btn-color-stroke: #312626;
@@ -201,12 +202,12 @@
   }
 
   /*
-      .container
-      Child of <body> wraps all pages that use this layout.
-      <body>
-          <div style=".container">
-              <div class="homepage|projectpage|blogpage|etc" />
-  */
+    .container
+    Child of <body> wraps all pages that use this layout.
+    <body>
+        <div style=".container">
+            <div class="homepage|projectpage|blogpage|etc" />
+    */
   .container {
     display: flex;
     flex-direction: column;
@@ -215,29 +216,19 @@
     margin-right: auto;
     margin-left: auto;
     /* 100lvh required to fill are with little content.
-         Disable formatting required due to old version of intellij.*/
+             Disable formatting required due to old version of intellij.*/
+    /* prettier-ignore-start */
     /*@formatter:off*/
     /*noinspection CssInvalidPropertyValue*/
     min-height: 100lvh;
     /*@formatter:on*/
+    /* prettier-ignore-end */
   }
 
   /*
-      h1
-      use variables to style colour, font size, etc
-  */
-  /*:global(h1) {*/
-  /*  color: var(--text-color);*/
-  /*  text-decoration: none;*/
-  /*  font-family: 'Roboto Flex';*/
-  /*  font-weight: 100;*/
-  /*  margin-bottom: 1rem;*/
-  /*}*/
-
-  /*
-      a links
-      use variables to style colour, font size, etc
-  */
+        a links
+        use variables to style colour, font size, etc
+    */
   :global(a) {
     color: var(--text-color);
     text-decoration: none;
@@ -245,8 +236,22 @@
     margin-bottom: 1rem;
   }
 
+  /* Text links within p text content. See next style of p > a */
   :global(p a) {
     text-decoration: underline;
+  }
+
+  /*
+     Style <a/> elements that are not associated with some sibling text.
+     For BCC website this is a black box with white text matching the logo.
+     */
+
+  :global(p > a:first-child:last-child) {
+    text-decoration: underline;
+    background-color: black;
+    color: white;
+    padding: 4px;
+    font-style: oblique;
   }
 
   /*:global(h4 a:after)*/

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c276a884-1a8e-4666-a107-6cda24dd7e64" name="Changes" comment="tidying up style">
+    <list default="true" id="c276a884-1a8e-4666-a107-6cda24dd7e64" name="Changes" comment="Updated Font weights and sizing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.prettierignore" beforeDir="false" afterPath="$PROJECT_DIR$/.prettierignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/components/BlockLayout/SectionBlock/index.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/BlockLayout/SectionBlock/index.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/BlockLayout/index.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/BlockLayout/index.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/+layout.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+layout.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +76,7 @@
       <option name="presentableId" value="Default" />
       <updated>1729512652820</updated>
       <workItem from="1729512654167" duration="9592000" />
-      <workItem from="1736175903343" duration="33919000" />
+      <workItem from="1736175903343" duration="38584000" />
     </task>
     <task id="LOCAL-00001" summary="Upgraded to svelte 5">
       <created>1735917845823</created>
@@ -176,7 +176,21 @@
       <option name="project" value="LOCAL" />
       <updated>1737993348154</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Updated Font weights and sizing">
+      <created>1738002338561</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1738002338561</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Updated Font weights and sizing">
+      <created>1738002903253</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1738002903253</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,7 +219,8 @@
     <MESSAGE value="Addressed image sizing bugs." />
     <MESSAGE value="Refining image by text styles." />
     <MESSAGE value="tidying up style" />
-    <option name="LAST_COMMIT_MESSAGE" value="tidying up style" />
+    <MESSAGE value="Updated Font weights and sizing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Font weights and sizing" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

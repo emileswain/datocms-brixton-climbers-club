@@ -36,7 +36,10 @@
 </div>
 
 <style>
-  /* set default margins of content.*/
+  /*
+    A Section sits flush with the main page and assumes child content will add appropriate padding/margins.
+    A sections only aims to delineate groups of content blocs with a header.
+  */
   .section-bloc {
     display: flex;
     flex-direction: column;
@@ -47,13 +50,12 @@
     height: 100%;
   }
 
-  /* Note that H1..Hn are styled for headers added tp StructuredText
-  As such we specifically style layouts using H1 with custom classes.
+  /* Note that the default H1..Hn styles are styled for headers added to StructuredText
+  As such we specifically style the headers here with custom classes.
   */
   .section-header {
     color: var(--text-color);
     text-decoration: none;
-    font-family: 'Roboto Flex';
     font-weight: 400;
     font-size: 2rem;
     margin-bottom: 1rem;
