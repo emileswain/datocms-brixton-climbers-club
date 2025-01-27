@@ -260,7 +260,6 @@
     margin-bottom: 1rem;
     letter-spacing: 1px;
     font-weight: 100;
-
   }
 
   :global(nav) {
