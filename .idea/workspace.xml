@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c276a884-1a8e-4666-a107-6cda24dd7e64" name="Changes" comment="Refining image by text styles.">
+    <list default="true" id="c276a884-1a8e-4666-a107-6cda24dd7e64" name="Changes" comment="tidying up style">
+      <change afterPath="$PROJECT_DIR$/src/lib/components/EmailForm/index.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/components/Block/ImageByTextBlock/index.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/Block/ImageByTextBlock/index.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/ResponsiveImage/index.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/ResponsiveImage/index.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/components/BlockLayout/index.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/BlockLayout/index.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/svelte.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/svelte.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +78,7 @@
       <option name="presentableId" value="Default" />
       <updated>1729512652820</updated>
       <workItem from="1729512654167" duration="9592000" />
-      <workItem from="1736175903343" duration="15471000" />
+      <workItem from="1736175903343" duration="28623000" />
     </task>
     <task id="LOCAL-00001" summary="Upgraded to svelte 5">
       <created>1735917845823</created>
@@ -155,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1736348717318</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="tidying up style">
+      <created>1736354986451</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1736354986451</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,7 +192,8 @@
     <MESSAGE value="Fixed formmating issue with intelij." />
     <MESSAGE value="Addressed image sizing bugs." />
     <MESSAGE value="Refining image by text styles." />
-    <option name="LAST_COMMIT_MESSAGE" value="Refining image by text styles." />
+    <MESSAGE value="tidying up style" />
+    <option name="LAST_COMMIT_MESSAGE" value="tidying up style" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
