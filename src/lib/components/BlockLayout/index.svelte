@@ -52,8 +52,8 @@
       </ContentBloc>
     {/each}
   </SectionBlock>
-  {:else if unmaskedBlock.__typename === 'ContentBlocRecord'}
-    <ContentBloc data={unmaskedBlock} {numberWang}>
-      {@render StructuredTextBloc(unmaskedBlock)}
-    </ContentBloc>
+{:else if unmaskedBlock.__typename === 'ContentBlocRecord'}
+  <ContentBloc data={unmaskedBlock} {numberWang}>
+    {@render StructuredTextBloc(unmaskedBlock)}
+  </ContentBloc>
 {/if}
