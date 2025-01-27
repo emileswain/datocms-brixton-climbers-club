@@ -59,6 +59,7 @@
   }
 
   :global(html, body) {
+    font-size: 18px;
     /*height: auto;*/
     /*width: auto;*/
     font-family: 'Roboto Flex', Helvetica, Arial, serif;
@@ -71,8 +72,36 @@
     /*scrollbar-gutter: stable;*/
   }
 
+  /*
+  Header styling
+  */
   :global(h1, h2, h3, h4, h5, h6, h7) {
     margin-bottom: 12px;
+    font-family: 'Roboto Flex', Helvetica, Arial, serif;
+    font-weight: 250;
+  }
+  :global(h1) {
+    font-size: 1.5rem; /* Previously h2 size */
+  }
+
+  :global(h2) {
+    font-size: 1.17rem; /* Previously h3 size */
+  }
+
+  :global(h3) {
+    font-size: 1rem; /* Previously h4 size */
+  }
+
+  :global(h4) {
+    font-size: 0.83rem; /* Previously h5 size */
+  }
+
+  :global(h5) {
+    font-size: 0.67rem; /* Previously h6 size */
+  }
+
+  :global(h6) {
+    font-size: 0.5rem; /* New size, smaller than previous h6 */
   }
 
   :global(img, picture, video, canvas, svg) {
@@ -197,13 +226,13 @@
       h1
       use variables to style colour, font size, etc
   */
-  :global(h1) {
-    color: var(--text-color);
-    text-decoration: none;
-    font-family: 'Roboto Flex';
-    font-weight: 100;
-    margin-bottom: 1rem;
-  }
+  /*:global(h1) {*/
+  /*  color: var(--text-color);*/
+  /*  text-decoration: none;*/
+  /*  font-family: 'Roboto Flex';*/
+  /*  font-weight: 100;*/
+  /*  margin-bottom: 1rem;*/
+  /*}*/
 
   /*
       a links
@@ -231,7 +260,7 @@
     margin-bottom: 1rem;
     letter-spacing: 1px;
     font-weight: 100;
-    font-size: large;
+
   }
 
   :global(nav) {

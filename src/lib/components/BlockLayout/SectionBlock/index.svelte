@@ -28,7 +28,7 @@
   {#if showHeader}
     {#if title}
       <ContentBloc>
-        <h1>{title}</h1>
+        <h1 class="section-header">{title}</h1>
       </ContentBloc>
     {/if}
   {/if}
@@ -45,6 +45,18 @@
     padding: 0;
     width: 100%;
     height: 100%;
+  }
+
+  /* Note that H1..Hn are styled for headers added tp StructuredText
+  As such we specifically style layouts using H1 with custom classes.
+  */
+  .section-header {
+    color: var(--text-color);
+    text-decoration: none;
+    font-family: 'Roboto Flex';
+    font-weight: 400;
+    font-size: 2rem;
+    margin-bottom: 1rem;
   }
 
   .inactive {
